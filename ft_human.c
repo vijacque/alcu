@@ -6,7 +6,7 @@
 /*   By: quroulon <quroulon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/20 08:38:59 by quroulon          #+#    #+#             */
-/*   Updated: 2015/12/20 16:17:07 by quroulon         ###   ########.fr       */
+/*   Updated: 2015/12/20 16:53:18 by quroulon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void		human_display(int boolean, int max)
 	if (boolean == 1)
 	{
 		ft_putendl("\n\033[36m- - - - - Human turn - - - - -\033[0m");
-		ft_putendl("\033[30m\033[47mHow many matches do you want to remove ?\033[0m");
+		ft_putendl("\033[30m\033[47mYou, kill theses matches !!!?\033[0m");
 		ft_putstr("\033[30m\033[47mThere is \033[31m");
 		ft_putnbr(max);
 		if (max > 1)

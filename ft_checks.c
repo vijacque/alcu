@@ -6,7 +6,7 @@
 /*   By: quroulon <quroulon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/20 02:51:49 by quroulon          #+#    #+#             */
-/*   Updated: 2015/12/20 15:51:06 by quroulon         ###   ########.fr       */
+/*   Updated: 2015/12/20 16:52:42 by quroulon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,25 +40,25 @@ int			check_digit(char *matches)
 ** @return	0 si FAUX, sinon 1
 */
 
-int			check_ln(char *matches)
+int			check_ln(char *match)
 {
 	int		i;
 
 	i = 0;
-	if (ft_atoi(&matches[0]) <= 0 || ft_atoi(&matches[0]) > 10000)
+	if (ft_atoi(&match[0]) <= 0 || ft_atoi(&match[0]) > 10000)
 		return (0);
-	while (matches[i])
+	while (match[i])
 	{
-		if ((matches[i] == '\n' && matches[i + 1] == '\n') || matches[0] == '\n')
+		if ((match[i] == '\n' && match[i + 1] == '\n') || match[0] == '\n')
 			return (0);
-		else if (matches[i] == '\n' && matches[i + 1] != '\0')
+		else if (match[i] == '\n' && match[i + 1] != '\0')
 		{
-			if (ft_atoi(&matches[i]) <= 0 || ft_atoi(&matches[i]) > 10000)
+			if (ft_atoi(&match[i]) <= 0 || ft_atoi(&match[i]) > 10000)
 				return (0);
 		}
 		i++;
 	}
-	if (matches[i - 1] != '\n')
+	if (match[i - 1] != '\n')
 		return (0);
 	return (1);
 }

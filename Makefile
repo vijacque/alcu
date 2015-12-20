@@ -6,7 +6,7 @@
 #    By: quroulon <quroulon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/19 21:56:33 by quroulon          #+#    #+#              #
-#    Updated: 2015/12/20 16:33:39 by quroulon         ###   ########.fr        #
+#    Updated: 2015/12/20 16:51:36 by quroulon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,10 +19,10 @@ SRC			= main.c ft_checks.c ft_extracts.c ft_help.c ft_display.c \
 
 OBJ			= $(SRC:.c=.o)
 
-HEADER1		= ./libf/includes/
+HEADER1		= ./libft/includes/
 HEADER2		= ./
 
-LIB			= libf/libft.a
+LIB			= libft/libft.a
 
 all: $(NAME)
 

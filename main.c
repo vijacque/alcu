@@ -6,7 +6,7 @@
 /*   By: quroulon <quroulon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/19 20:49:22 by quroulon          #+#    #+#             */
-/*   Updated: 2015/12/20 15:46:12 by quroulon         ###   ########.fr       */
+/*   Updated: 2015/12/20 16:53:48 by quroulon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int			main_resolve(char *matches)
 		return (0);
 	}
 	tab = strtoint(matches, tab);
-	ft_putendl("\033[35m- - - - Welcome to Alum1 - - - -\033[0m"); 
+	ft_putendl("\033[35m- - - - Welcome to Alum1 - - - -\033[0m");
 	first = players();
 	resolve(matches, tab, first);
 	free(tab);
