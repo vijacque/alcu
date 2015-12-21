@@ -6,7 +6,7 @@
 #    By: quroulon <quroulon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/19 21:56:33 by quroulon          #+#    #+#              #
-#    Updated: 2015/12/21 15:10:13 by vijacque         ###   ########.fr        #
+#    Updated: 2015/12/21 15:35:49 by vijacque         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,9 +43,9 @@ matches of your choice, press Enter two times and get a lot of fun ! \033[0m"
 	@echo ""
 	@echo ""
 	@echo "\033[37mWith this input for examphe you will get this map:\033[0m"
-	@echo "| | | | |"
-	@echo "| | |"
-	@echo "| | | | | | |"
+	@echo "|||||"
+	@echo "|||"
+	@echo "|||||||"
 	@echo "\033[34mIt's easy right :), We hope that you wil have a lot of fun \
 playing our game\033[0m"
 	@make -C libft/

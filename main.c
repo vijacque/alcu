@@ -6,7 +6,7 @@
 /*   By: quroulon <quroulon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/19 20:49:22 by quroulon          #+#    #+#             */
-/*   Updated: 2015/12/20 17:15:02 by quroulon         ###   ########.fr       */
+/*   Updated: 2015/12/21 15:34:39 by vijacque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,8 @@ int			main(int ac, char **av)
 	char	*matches;
 	int		ln;
 
+	ft_putendl("\033[33mEnter a number then press 2 times ENTER\033[0m");
+	ft_putendl("\033[31mYou can have as many line as you want\033[0m");
 	input = 0;
 	matches = NULL;
 	ln = 0;
